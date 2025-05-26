@@ -1,0 +1,111 @@
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    transition: 0.2s ease-in-out;
+    padding: 20px 80px;
+
+    @media (max-width: 768px) {
+        padding: 20px;
+    }
+
+    height: 95px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FD9C14;
+
+    ul {
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 80%;
+        height: 100%;
+
+        li {
+            font-weight: 600;
+            text-transform: uppercase;
+            width: fit-content;
+            margin: 0;
+            padding: 0 25px;
+
+            a {
+                color: #fff;
+                transition: color 0.3s ease-in-out;
+                font-family: "Roboto", sans-serif;
+
+                &:hover {
+                    color: #225193;
+                }
+
+                &:active {
+                    color: #225193;
+                }
+            }
+        }
+    }
+}
+
+div.header-logo {
+    margin-left: 0;
+    align-items: center;
+
+    img {
+        width: 100%;
+        height: 70px;
+        align-self: center;
+    }
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* mobile hamburguer menu*/
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 75px;
+        height: fit-content;
+        /* debajo del nav */
+        right: 10px;
+        width: 200px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        border-radius: 5px;
+        li {
+            a{
+            color: #225193;
+            }
+        }
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    button#hamburger-btn {
+        margin-right: 10px;
+        color: #fff;
+        font-weight: 600;
+    }
+}

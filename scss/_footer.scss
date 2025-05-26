@@ -1,0 +1,22 @@
+footer {
+    height: 100px;
+    display: flex;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/src/assets/images/footer/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: #ffdb00;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}

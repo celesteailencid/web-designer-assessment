@@ -1,11 +1,11 @@
-# 🍗 Pollo Hermanos – Web Design Technical Test for Fever
+# Web Design Technical Test
 
-This project is a technical test for the **Web Designer** position at **Fever**.  
-It showcases the design and front-end development of a fictional restaurant website: **Pollo Hermanos**, specializing in crispy fried chicken.
+This project is a technical test for the **Web Designer** position.  
+It showcases the design and front-end development of a fictional restaurant website: **Argentina Restaurant**, specializing in argentinian food.
 
 ## 🎯 Objective
 
-Design and build a responsive, visually engaging website that highlights the brand identity of Pollo Hermanos and offers an intuitive user experience.
+Design and build a responsive, visually engaging website that highlights the brand identity of Argentina and offers an intuitive user experience.
 
 ## 🧰 Technologies Used
 
@@ -15,7 +15,8 @@ Design and build a responsive, visually engaging website that highlights the bra
 
 ## 🖼️ Preview
 
-![image](https://github.com/user-attachments/assets/7e5abe92-d430-45d4-9e09-77be0fdffd20)
+![image](https://github.com/user-attachments/assets/c52b37ca-bd7b-4893-b467-81515f90c92b)
+
 
 ## 🚀 Features
 

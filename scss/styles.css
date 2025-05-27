@@ -68,25 +68,25 @@ h2.subtitle {
 
 /*HIGHLIGHTS IN TITLES*/
 span.highlighted-orange {
-  background: linear-gradient(to top, #FD9C14 50%, transparent 50%);
+  background: linear-gradient(to top, #da420e 50%, transparent 50%);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
 
 span.highlighted-yellow {
-  background: linear-gradient(to top, #ffdb00 50%, transparent 50%);
+  background: linear-gradient(to top, #da420e 50%, transparent 50%);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
 
 span.highlighted-blue {
-  background: linear-gradient(to top, #225193 50%, transparent 50%);
+  background: linear-gradient(to top, #da420e 50%, transparent 50%);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
 
 span.highlighted-lightblue {
-  background: linear-gradient(to top, #479cd5 50%, transparent 50%);
+  background: linear-gradient(to top, #da420e 50%, transparent 50%);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
@@ -146,7 +146,7 @@ div.blank {
 
 /*BUTTONS STYLE*/
 a.btn-orange-hover-blue {
-  background-color: #FD9C14;
+  background-color: #da420e;
   color: #fff;
   padding: 20px;
   width: 250px;
@@ -160,7 +160,7 @@ a.btn-orange-hover-blue {
   cursor: pointer;
 }
 a.btn-orange-hover-blue:hover {
-  background-color: #225193;
+  background-color: #da420e;
   color: #fff;
 }
 
@@ -203,7 +203,7 @@ nav {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  background-color: #FD9C14;
+  background-color: #da420e;
 }
 @media (max-width: 768px) {
   nav {
@@ -232,10 +232,10 @@ nav ul li a {
   font-family: "Roboto", sans-serif;
 }
 nav ul li a:hover {
-  color: #225193;
+  color: #da420e;
 }
 nav ul li a:active {
-  color: #225193;
+  color: #da420e;
 }
 
 div.header-logo {
@@ -280,7 +280,7 @@ div.header-logo img {
     border-radius: 5px;
   }
   .nav-links li a {
-    color: #225193;
+    color: #fff;
   }
   .nav-links.active {
     display: flex;
@@ -329,17 +329,17 @@ div.header-logo img {
 }
 
 .hero .logo-hero {
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 250px;
   padding-bottom: 30px;
 }
 .hero .logo-hero img {
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 250px;
 }
 @media (max-width: 769px) {
   .hero .logo-hero {
-    height: 250px;
+    height: 170px;
     width: 250px;
   }
 }
@@ -370,7 +370,7 @@ h2.subtitle {
   overflow: hidden;
   scroll-snap-align: center;
   text-align: center;
-  border: solid 5px #225193;
+  border: solid 5px #2c2c2c;
   border-radius: 5px;
 }
 
@@ -432,7 +432,7 @@ h2.subtitle {
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
-  color: #FD9C14;
+  color: #da420e;
   border: none;
   font-size: 2rem;
   padding: 0.5rem;
@@ -461,7 +461,7 @@ h2.subtitle {
 /*PRICE STYLE*/
 p.price-label {
   color: #fff;
-  background-color: #225193;
+  background-color: #2c2c2c;
   padding: 15px;
   line-height: 25px;
   font-weight: 700;
@@ -521,13 +521,13 @@ div.space-evenly {
   right: 10px;
   top: 10px;
   font-size: 30px;
-  color: #225193;
+  color: #2c2c2c;
   background: transparent;
   border: none;
   cursor: pointer;
 }
 .close:hover {
-  color: #479cd5;
+  color: #2c2c2c;
 }
 
 .menu-item {
@@ -568,7 +568,7 @@ div.space-evenly {
   margin-left: 10px;
   padding: 7px;
   font-family: "Roboto", sans-serif;
-  border: solid 1px #FD9C14;
+  border: solid 1px #da420e;
   border-radius: 5px;
 }
 
@@ -577,7 +577,7 @@ div.space-evenly {
   font-weight: bold;
   margin-top: 20px;
   text-align: right;
-  color: #225193;
+  color: #2c2c2c;
 }
 
 .title-menu-overlay {
@@ -596,7 +596,7 @@ section.location {
   padding-bottom: 90px;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/images/location/location-img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/images/gastro/hamburguesa-argentina.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -667,7 +667,7 @@ strong.strong-blue {
 }
 
 strong.text-orange {
-  color: #FD9C14;
+  color: #da420e;
 }
 
 p.location-text {
@@ -718,7 +718,7 @@ div.partners-container {
 
 div.partners-box {
   background-color: #fff;
-  border: solid 3px #225193;
+  border: solid 3px #2c2c2c;
   border-radius: 10px;
   width: 300px;
   height: 250px;
@@ -728,7 +728,7 @@ div.partners-box {
 }
 div.partners-box:hover {
   transform: scale(1.05);
-  border: solid 3px #FD9C14;
+  border: solid 3px #da420e;
 }
 @media (max-width: 769px) {
   div.partners-box {
@@ -738,7 +738,7 @@ div.partners-box:hover {
 div.partners-box p {
   height: 50px;
   margin-top: 40px;
-  color: #225193;
+  color: #2c2c2c;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;

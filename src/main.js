@@ -12,46 +12,32 @@ const menu = {
   menuList: [
     {
       menuId: 0,
-      menuName: "Chicken Burger",
-      menuDescription: "We placed 70 years of delicious into this sandwich. Taste our legendary hand-battered chicken.",
+      menuName: "Asado argentino",
+      menuDescription: "Selected cuts, slowly cooked over charcoal.",
       menuPrice: 10.00,
-      image: "src/images/gastro/gasto-item-chicken-buger.jpg"
+      image: "src/images/gastro/asado-argentino.webp"
     },
     {
       menuId: 1,
-      menuName: "Chicken wings",
-      menuDescription: "Get your fill with the Texas-Sized Meal: 3PC Legs & Thighs, 2 regular sides plus a signature jalapeño pepper.",
+      menuName: "Empanadas caseras",
+      menuDescription: "Filled with traditional flavors: meat, humita, ham and cheese.",
       menuPrice: 9.00,
-      image: "src/images/gastro/gasto-item-chicken-wings.jpg"
+      image: "src/images/gastro/empanadas-argentinas.webp"
     },
     {
       menuId: 2,
-      menuName: "Beer",
-      menuDescription: "Just simple and fresh beer.",
+      menuName: "Pastel de papa",
+      menuDescription: "The same old recipe, with juicy meat and gratin mashed potatoes.",
       menuPrice: 2.20,
-      image: "src/images/gastro/gasto-item-beer.jpg"
+      image: "src/images/gastro/pastel-de-papa.webp"
     },
     {
       menuId: 3,
-      menuName: "French fries",
-      menuDescription: "Our fries are extra-long and center-cut from Grade A potatoes. They are cooked to a golden-brown crisp while remaining slightly soft in the middle. Every batch is cooked to order in our premium quality Canola Oil blend, then lightly salted immediately after leaving the fryer, so the taste melts onto each fry.",
+      menuName: "Hamburguesas artesanales",
+      menuDescription: "With the Creole touch that sets us apart.",
       menuPrice: 12.00,
-      image: "src/images/gastro/gasto-item-french-fries.jpg"
+      image: "src/images/gastro/hamburguesa-argentina.jpg"
     },
-    {
-      menuId: 4,
-      menuName: "Milshake",
-      menuDescription: "Our creamy Milkshakes are hand-spun the old-fashioned way each time and feature delicious. Topped with whipped cream and a cherry (except when served via delivery).",
-      menuPrice: 1.80,
-      image: "src/images/gastro/gasto-item-milkshake.jpg"
-    },
-    {
-      menuId: 5,
-      menuName: "Fried chicken",
-      menuDescription: "We use premium chicken breast tenderloins to make the most tender chicken fingers possible. Our special marinade tenderizes the chicken, locks in moisture and adds flavor.",
-      menuPrice: 8.00,
-      image: "src/images/gastro/gasto-item-fried-chicken.jpg"
-    }
   ]
 };
 
@@ -252,9 +238,9 @@ async function initMap() {
   const marker = new Marker({
   position: position,
   map: map,
-  title: "Los Pollos Hermanos",
+  title: "Argentina Restaurant",
   icon: {
-    url: "src/images/header/lph-logo.png",
+    url: "src/images/general/logo-restaurant-argentina.png",
     scaledSize: new google.maps.Size(40, 40),
   }
 });
